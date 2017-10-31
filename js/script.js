@@ -3,7 +3,7 @@ $('#scroll').on('click', function(){
         console.log('clicked it');
         $('html', 'body').animate({
             scrollTop: $( $.attr(this, 'href')).offset().top
-        }, 500);
+        -100}, 500);
         console.log('scrolled?');
     });
 
@@ -11,5 +11,5 @@ $(document).on('click', 'a', function(event){
     event.preventDefault();
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+    -100}, 500);
 });
