@@ -1,0 +1,41 @@
+<html><head>
+  <title>Privacy Policy for Europana automatic metrics</title>  
+</head>
+
+<body>
+  <p>
+The site http://jolanwuyts.eu links to a simple script for internal use at the Europeana Foundation, 
+called Europeana automatic metrics. The script incorporates the freely reusable (under a GNU 3 GPL) 
+code from the ImportJSON script originally created by Brad Jasper and Trevor Lohrbeer. 
+You can find the project website for ImportJSON <a href="https://github.com/bradjasper/ImportJSON">here</a>.
+Europeana automatic metrics is hosted by Google as a Google Apps script. Europeana automatic metrics does not send any
+private information about individual users to the developer, me. I will never collect any such information in the future.
+The script is provided free of charge under a GNU General Public License, version 3. It contains no advertising, nor will 
+it ever contain advertising. It is not monetised and will never be monetised in the future. 
+</p>
+
+<p>
+Europeana automatic metrics collects information about the Europeana thematic collections through a JSON call to the 
+Europeana RESTful Search API. This data is dumped into a Google Sheets tab. The only self-written code in this script is
+the createSnapshot() function in copymonthly.gs. It copies the values of the live data tab over to a new tab, naming it with
+the timestamp the snapshot was taken at. The snapshot is taken automatically every month through a Google Apps Scripts 
+trigger, or can be taken manually with the 'take snapshot' button on the live sheets tab. 
+</p>
+
+
+<p>
+The script doesn't collect any user information, it connects to the Europeana API as its only outside surface.The script
+only sends user-entered query requests to the Europeana API, but no other information that wasn't entered by the user
+manually. I am not responsible for the collection of data and logs that the Europeana API might collect. createSnapshot()
+only copies the values from the live tab over to another tab within the same spreadsheet, and does not copy data over 
+to any other source. 
+</p>
+
+<p>
+
+While http://jolanwuyts.eu might use Google Analytics, the Europeana automatic metrics script does not collect any 
+user information. The script is intended for internal business use only, not for commercial purposes. 
+</p>
+
+</body></html>
+
