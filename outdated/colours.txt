@@ -1,6 +1,0 @@
-accent: FFE6C6
-light: BAD2C7
-main:  8BB3A0
-background: FFFBF6
-
-http://paletton.com/#uid=3310u0k7awC18TC3FIvbwrAgGmS
